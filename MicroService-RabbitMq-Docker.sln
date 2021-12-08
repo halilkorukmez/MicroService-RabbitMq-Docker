@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{ED2A97A1-DB2C-4568-ABE0-86968747D197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{A7825742-C870-4DC8-BF79-058EB6E95446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2CE38B10-684A-43E0-8315-6767010E3847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{C5FA70A7-BD4F-43CD-B0FF-B22D44E0BE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Product", "MicroService.Product\MicroService.Product.csproj", "{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7825742-C870-4DC8-BF79-058EB6E95446} = {ED2A97A1-DB2C-4568-ABE0-86968747D197}
+		{2CE38B10-684A-43E0-8315-6767010E3847} = {ED2A97A1-DB2C-4568-ABE0-86968747D197}
+		{C5FA70A7-BD4F-43CD-B0FF-B22D44E0BE07} = {2CE38B10-684A-43E0-8315-6767010E3847}
+		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223} = {C5FA70A7-BD4F-43CD-B0FF-B22D44E0BE07}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BB943E1-EF0B-4130-BDD8-CA30393608CA}
+	EndGlobalSection
+EndGlobal
