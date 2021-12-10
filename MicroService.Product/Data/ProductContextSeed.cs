@@ -25,8 +25,10 @@ namespace MicroService.Product.Data
                 new Products
                 {
                     Name = "Takım Elbise",
-                    Description = "ClebraCodeClebraCodeClebraCodeClebraCodeClebraCodeClebraCodeClebraCodeClebraCodeClebraCodeClebraCode"
-
+                    Description = "ClebraCode",
+                    Summary = "ClebraCode",
+                    Price = 950.00M,
+                    Category = "Software"
                 }
             };
         }

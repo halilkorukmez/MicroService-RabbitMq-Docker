@@ -5,20 +5,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MicroService.Product.Entities
+namespace MicroService.Sourcing.Entities
 {
-    public class Products
+    public class Bid
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
-        [BsonElement("Ürün İsmi")]
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string Category { get; set; }
-        public string Summary { get; set; }
-        public string ImageFile { get; set; }
+        public string AuctionId { get; set; }
+        public string ProductId { get; set; }
+        public string SellerUserName { get; set; }
         public decimal Price { get; set; }
-
+        public DateTime CreatedAt { get; set; }
     }
 }
