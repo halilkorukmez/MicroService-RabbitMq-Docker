@@ -8,5 +8,12 @@ services:
     build:
       context: .
       dockerfile: MicroService.Product/Dockerfile
+  microservice.sourcing:
+    image: ${DOCKER_REGISTRY-}microservicesourcing
+    build:
+      context: .
+      dockerfile: MicroService.Sourcing/Dockerfile
+
 volumes:
   mongo_data:
+
