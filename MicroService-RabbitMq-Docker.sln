@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{ED2A97A1-DB2C-4568-ABE0-86968747D197}"
 EndProject
@@ -15,9 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.Product", "Mic
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{353A123A-FE94-4258-9582-AFEDF0120876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Sourcing", "MicroService.Sourcing\MicroService.Sourcing.csproj", "{F8803094-72F5-4039-91DA-C27FD1DB92B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.Sourcing", "MicroService.Sourcing\MicroService.Sourcing.csproj", "{F8803094-72F5-4039-91DA-C27FD1DB92B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{7DC36C24-E187-4241-B6A3-FA29DEBC3CED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{ED6D20F5-1D4F-4F41-8061-6D665EAA32E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBusRabbitMQ", "..\EventBusRabbitMQ\EventBusRabbitMQ.csproj", "{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{F624F0AE-BF0D-4888-90DF-25F398CCDCC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,10 @@ Global
 		{F8803094-72F5-4039-91DA-C27FD1DB92B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8803094-72F5-4039-91DA-C27FD1DB92B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8803094-72F5-4039-91DA-C27FD1DB92B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +58,9 @@ Global
 		{5ECEAC75-4E93-4AEE-B99E-FA3326B7B223} = {C5FA70A7-BD4F-43CD-B0FF-B22D44E0BE07}
 		{F8803094-72F5-4039-91DA-C27FD1DB92B1} = {7DC36C24-E187-4241-B6A3-FA29DEBC3CED}
 		{7DC36C24-E187-4241-B6A3-FA29DEBC3CED} = {2CE38B10-684A-43E0-8315-6767010E3847}
+		{ED6D20F5-1D4F-4F41-8061-6D665EAA32E5} = {2CE38B10-684A-43E0-8315-6767010E3847}
+		{9C61F3ED-9F48-446B-9A86-F3EA50E1A4EB} = {ED6D20F5-1D4F-4F41-8061-6D665EAA32E5}
+		{F624F0AE-BF0D-4888-90DF-25F398CCDCC0} = {2CE38B10-684A-43E0-8315-6767010E3847}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BB943E1-EF0B-4130-BDD8-CA30393608CA}
